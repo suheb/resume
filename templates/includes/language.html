@@ -1,0 +1,10 @@
+{% if LANGUAGES %}
+<div class="languages-container container-block">
+	<h2 class="container-block-title">Languages</h2>
+	<ul class="list-unstyled interests-list">
+		{% for language in LANGUAGES %}
+		<li>{{ language['name'] }} <span class="lang-desc">({{ language['description'] }})</span></li>
+		{% endfor %}
+	</ul>
+</div><!--//interests-->
+{% endif %}
