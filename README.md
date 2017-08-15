@@ -149,7 +149,7 @@ The theme is responsive
 There are 6 color schemes available:
 Change the color theme by adding the following line to your pelican setting file:
 ```
-CSS_FILE = 'style-1.css'
+CSS_FILE = 'main-1.css'
 ```
 
 ![pelican resume theme](https://github.com/suheb/pelican-resume/raw/master/static/images/pelican-resume-theme-2.png)
