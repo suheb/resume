@@ -39,6 +39,8 @@ LINKEDIN = 'suhebk'
 GITHUB = 'suheb'
 TWITTER = '@iamsuheb'
 
+CAREER_SUMMARY = 'I am a full-stack developer currently working as a software developer at Zomato. I am a Google Summer of Code mentor for CLTK. I also participated in GSoC last year as a student. I have also worked at Aspiring Minds and various other startups mainly working on Web and Android.'
+
 SKILLS = [
 	{
 		'title': 'JAVA',
