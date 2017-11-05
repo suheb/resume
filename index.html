@@ -3,11 +3,12 @@
 <head>
     <link href='//fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,400italic' rel='stylesheet' type='text/css'>
 
-    <link rel="stylesheet" type="text/css" href="/resume/theme/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="/resume/theme/css/bootstrap.min.css" />
-    <link rel="stylesheet" type="text/css" href="/resume/theme/css/main.css" />
+    <link rel="stylesheet" type="text/css" href="/theme/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="/theme/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="/theme/css/main.css" />
 
 
+    <link href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Resume Atom">
 
 
 
@@ -31,7 +32,7 @@
  
 <div class="sidebar-wrapper">
     <div class="profile-container">
-        <img class="profile-img" src="/resume/theme/images/profile.png" alt="profile picture" />
+        <img class="profile-img" src="/theme/images/profile.png" alt="profile picture" />
         <h1 class="name">Suhaib Khan</h1>
         <h3 class="tagline">Full Stack Developer</h3>
     </div><!--//profile-container-->
@@ -215,8 +216,17 @@
             <small class="copyright">Ported to Pelican with <i class="fa fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Suhaib Khan</a></small>
         </div><!--//container-->
     </footer><!--//footer-->
-    <script type="text/javascript" src="/resume/theme/js/jquery-1.11.3.min.js"></script>
-    <script type="text/javascript" src="/resume/theme/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="/resume/theme/js/main.js"></script>
+    <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-109241544-1', 'auto');
+    ga('send', 'pageview');
+    </script>
+    <script type="text/javascript" src="/theme/js/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="/theme/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/theme/js/main.js"></script>
 </body>
 </html>
